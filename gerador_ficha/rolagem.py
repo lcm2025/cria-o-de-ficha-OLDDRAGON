@@ -12,6 +12,6 @@ def gerar_atributos():
         "Constituição": sum(sorted([rolar_dado() for _ in range(4)])[1:]),
         "Inteligência": sum(sorted([rolar_dado() for _ in range(4)])[1:]),
         "Sabedoria": sum(sorted([rolar_dado() for _ in range(4)])[1:]),
-        "Carisma": sum(sorted([rolar_dado() for _ in range(4)])[1:]))
+        "Carisma": sum(sorted([rolar_dado() for _ in range(4)])[1:])
     }
     return atributos
